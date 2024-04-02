@@ -10,6 +10,7 @@ signal-demo
 ***
 spring boot 3.2.4 <br>
 자바 버전 : openjdk 17 ( Corretto ) <br>
+웹소켓 : STOMP <br>
 gradle
 ```groovy
 dependencies {
@@ -21,7 +22,6 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 ```
-웹소켓 : STOMP
 
 ***
 프론트
